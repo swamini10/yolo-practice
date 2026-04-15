@@ -1,0 +1,26 @@
+FULL COMMAND GUIDE (Do It Yourself)
+✅ Step 1: Create Repo (one-time on GitHub)
+
+👉 Go to GitHub → New Repo → name: yolo-practice
+
+✅ Step 2: Clone Repo (Terminal)
+git clone https://github.com/YOUR-USERNAME/yolo-practice.git
+cd yolo-practice
+✅ Step 3: Create New Branch
+git checkout -b feature-1
+✅ Step 4: Make a Change
+echo "YOLO achievement practice" >> README.md
+✅ Step 5: Commit Changes
+git add README.md
+git commit -m "Add YOLO practice text"
+✅ Step 6: Push Branch to GitHub
+git push origin feature-1
+✅ Step 7: Create Pull Request (GitHub UI)
+
+👉 Now go to your repo in browser
+You will see:
+“Compare & pull request”
+
+Click it → then:
+
+Click Create Pull Request
